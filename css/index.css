@@ -1,0 +1,158 @@
+.head{
+    background: url('../img/head/bg.jpg') no-repeat center / cover;
+    padding: 200px 0 40px 0;
+    margin-top: 80px;
+}
+
+.headTitle{
+    width: 60%;
+}
+
+.headTitle h1{
+    font-size: 62px;
+    color: #A19467;
+    font-weight: 100;
+}
+
+.headTitle p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    margin-top: 15px;
+}
+
+.headTitle .btn{
+    margin-top: 20px;
+}
+
+.headBottomContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 64px;
+}
+
+.headItem{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background: #A19467;
+}
+
+.headItemImg img{
+    width: 170px;
+    border-radius: 20px;
+}
+
+.headItemText{
+    width: 330px;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.headItemText h2{
+    font-size: 16px;
+}
+
+.headItemText p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+@media(min-width: 320px) and (max-width: 550px){
+    .head{
+        padding: 90px 0 40px 0;
+    }
+    
+    .headTitle{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .headTitle h1{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    
+    .headTitle p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .headBottomContainer{
+        justify-content: center;
+        margin-top: 35px;
+        width: 100%;
+    }
+    
+    .headItem{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+        border-radius: 20px;
+        width: 90%;
+    }
+    
+    .headItemImg img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    .headItemText{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+        color: #fff;
+    }
+    
+    .headItemText h2{
+        font-size: 14px;
+    }
+    
+    .headItemText p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
+
+
+
+@media(min-width: 550px) and (max-width: 920px){
+    .head{
+        padding: 100px 0 40px 0;
+    }
+
+    .headTitle{
+        width: 80%;
+    }
+    
+    .headTitle h1{
+        font-size: 42px;
+    }
+    
+    .headTitle p{
+        font-size: 18px;
+    }
+}
+
+
+@media(min-width: 920px) and (max-width: 1220px){
+    .head{
+        padding: 120px 0 40px 0;
+    }
+
+    .headTitle{
+        width: 60%;
+    }
+    
+    .headTitle h1{
+        font-size: 52px;
+    }
+    
+    .headTitle p{
+        font-size: 18px;
+    }
+}
