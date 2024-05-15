@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
     <title>Главная страница</title>
 </head>
 <body>
@@ -117,6 +124,34 @@
         </div>
     </section>
 
+    <section class="section">
+        <div class="container">
+            <div class="titleSection">
+                <h2 class="SnellRoundhand">Фотографии</h2>
+                <p>Vivendum dignissim conceptam pri ut, ei vel partem audiam sapientem.</p>
+            </div>
+
+            <div class="sliderContent">
+                <div class="slider">
+                    <div><img src="img/portfolio/item1.jpg" alt="photo1"></div>
+                    <div><img src="img/portfolio/item2.jpg" alt="photo2"></div>
+                    <div><img src="img/portfolio/item1.jpg" alt="photo3"></div>
+                    <div><img src="img/portfolio/item2.jpg" alt="photo4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        });
+    </script>
 
     <script src="js/menu.js"></script>
     <script src="js/main.js"></script>

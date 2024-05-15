@@ -21,7 +21,7 @@
     margin-top: 15px;
 }
 
-.headTitle .btn{
+.headTitle .btnBorderWhite{
     margin-top: 20px;
 }
 
@@ -58,6 +58,35 @@
     font-size: 14px;
     margin-top: 5px;
 }
+
+/* portfolio */
+
+.sliderContent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.slider{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.slider div{
+    display: flex !important;
+    justify-content: center !important;
+    width: 100%;
+}
+
+.slider img{
+    bottom: 0;
+    width: 95%; 
+    height: auto;
+    object-fit: cover;
+}
+  
 
 @media(min-width: 320px) and (max-width: 550px){
     .head{
