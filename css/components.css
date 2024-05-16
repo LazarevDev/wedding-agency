@@ -35,6 +35,7 @@
 .breadcrumbs{
     display: flex;
     margin-top: 18px;
+    font-size: 14px;
 }
 
 .breadcrumbs a{
